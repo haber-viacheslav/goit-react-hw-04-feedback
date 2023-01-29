@@ -5,6 +5,8 @@ import {
 } from './FeedbackOptions.styled';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+  console.log(options);
+
   return (
     <FeedbackOptionsList>
       {options.map((option, idx) => (
