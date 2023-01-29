@@ -15,16 +15,12 @@ export const App = () => {
     switch (option) {
       case 'good':
         setGood(prevGood => prevGood + 1);
-        console.log(good);
-
         break;
       case 'neutral':
         setNeutral(prevNeutral => prevNeutral + 1);
-        console.log(neutral);
         break;
       case 'bad':
         setBad(prevBad => prevBad + 1);
-        console.log(bad);
         break;
       default:
         break;
